@@ -1,0 +1,29 @@
+body {
+    padding-bottom: 100px;
+    background-image: url(http://wmh.github.io/circular-slides-generator/static/img/noise.png);
+  }
+
+  .scroll-img {
+    /* border: 1px solid red; */
+    width: 1200px;
+    height: 210px;
+    overflow: hidden;
+    font-size: 0;
+  }
+  .scroll-img ul {
+    width: 700px;
+    height: 600px;
+    margin: 0;
+  }
+  .scroll-img ul li {
+    display: inline-block;
+    margin: 10px 0 10px 10px;
+  }
+  #demo4.scroll-img ul,
+  #demo5.scroll-img ul {
+    width: 1500px;
+  }
+  #demo5-btn {
+    width: 1200px;
+    /* padding-top: 10px; */
+  }
