@@ -419,19 +419,24 @@ hr {
   }
 
   .scroll-img ul li img {
-      width: 120px;
+    width: 120px;
   }
 
   /*END слайд партнеров*/
 
 
   /*FOOTER*/
-
   .footer-container {
-      background-color: rgb(79, 82, 85);
-      margin-top: 20px;
-      padding:  20px;
-      display: flex;
+    /* width: 100%; */
+    
+}
+.footer-block {
+    /* max-width: 1200px;   */
+    background-color: rgb(79, 82, 85);
+    width: 1200px;
+    margin-top: 20px;
+    padding:  20px 0;
+    display: flex;
   }
 
   .footer-left {
@@ -452,8 +457,8 @@ hr {
     padding-right: 10px;
   }
 
-  .q123 > div > img,
-  .q123 > div > p {
+  .footer-contact-link > div > img,
+  .footer-contact-link > div > p {
       display: inline-block;
       vertical-align: middle;
       padding-bottom: 10px;
@@ -462,8 +467,6 @@ hr {
 
   .footer-center {
     color:#FFF;
-    /* vertical-align: middle; */
-    /* text-align: center; */
   }
 
   .footer-contact p {
