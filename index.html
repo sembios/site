@@ -2,366 +2,582 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Umai</title>
-    <link rel="stylesheet" href="./css/style.css">
-    <script src="./main.js" defer></script>
-    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-    <script src="./jquery.scrollbox.js"></script>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>UMAI</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <link href="assets/img/favicon.png" rel="icon">
+
+  <!-- Google Fonts -->
+  <link
+    href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
+    rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/animate.css/animate.min.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <link href="assets/css/style.css" rel="stylesheet">
+
 </head>
 
 <body>
-    <div class="container">
-        <div class="header">
-            <div class="logo">
-                <img src="./img/umai.png" alt="">
-            </div>
-            <div class="navigation">
-                <p>О компании</p>
-                <p>Услуги</p>
-                <p>Интеграция</p>
-                <p>Партнеры</p>
-                <p>Контакты</p>
 
-            </div>
-        </div>
-        <div class="intro">
-            <p>Оплачивайте услуги где бы вы не находились</p>
-            <img src="./img/pic.png" alt="">
-        </div>
-        <div class="about">
-            <h1>О компании</h1>
-            <hr />
-            <div class="about_block">
-                <div class="about_company main">
-                    <h4>Миссия</h4>
-                    <p>Мы делаем платежи более простыми и доступными</p>
-                </div>
-    
-                <div class="about_company main">
-                    <h4>Ценности </h4>
-                    <li>Инновации</li>
-                    <li>Открытость и честность</li>
-                    <li>Индивидуальный подход к каждому клиенту</li>
-                    <li>Сплоченность команды</li>
-                    <li>Позитивное отношение к работе</li>
-                </div>
-    
-                <div class="about_company main">
-                    <h4>Органы управления</h4>
-                    <p>Общее собрание участников – высший орган управления</p>
-                    <p>Правление – исполнительный орган, председатель Правления – Цой Дмитрий Владимирович</p>
-                </div>
-            </div>
+  <!-- ======= Header ======= -->
+  <header id="header" class="fixed-top d-flex align-items-center  header-transparent ">
+    <div class="container d-flex align-items-center justify-content-between">
 
-            <div class="about_licence">
-                <h4>Лицензии НБКР</h4>
-                <p>№ 3004290515 от 02.06.2015 г. на деятельность по оказанию услуг по приему и проведению платежей и
-                    расчетов за товары и услуги, не являющиеся результатом своей деятельности, в пользу третьих лиц
-                    посредством платежных систем, основанных на информационных технологиях и электронных средствах и
-                    способах проведения платежей;
-                    № 2005290515 от 2.06.2015 г. на деятельность по оказанию услуг по приему, обработке и выдаче
-                    финансовой информации (процессинг, клиринг) по платежам и расчетам третьих лиц участникам платежной
-                    системы данного процессингового, клирингового центра
-                </p>
-            </div>
+      <div class="logo">
+        <h1><a href="index.html"><img src="./assets/img/umai.png" alt=""></a></h1>
+      </div>
 
-        </div>
-        <div class="service">
-            <h1>Наши услуги</h1>
-            <hr />
-            <div class="service_right">
-                <div class="service_block">
-                    <img src="/img/1.png" alt="">
-                    <div>
-                        <h4 class="format">Прием платежей</h4>
-                    </div>
-                    <p>Прием платежей в пользу третьих лиц. Оптимизируйте свои денежные потоки. Доверьте прием платежей
-                        за ваши товары/услуги нашей компании. Мы выводим ваш сервис в сети платежных терминалов,
-                        мобильных приложениях агентов, а также в интернет и мобильном банкинге крупных коммерческих
-                        банков Кыргызстана. Мы собираем платежи и перечисляем их на следующий рабочий день. </p>
-                </div>
-                <div class="line"></div>
-                <div class="service_block">
-                    <img src="/img/1.png" alt="">
-                    <div>
-                        <h4 class="format">Агрегация</h4>
-                    </div>
-                    <p>Вы хотите запустить свое собственное мобильное приложение или сеть платежных терминалов? Вам не
-                        нужно заключать договоры с каждым поставщиком, сервис которого вы хотели бы видеть у себя.
-                        Достаточно заключить договор на агрегацию с нашей компании, и в вашем платежном средстве
-                        появится более 500 услуг, доступных к оплате.</p>
-                </div>
-                <div class="line"></div>
-                <div class="service_block">
-                    <img src="/img/1.png" alt="">
-                    <div>
-                        <h4 class="format">Техническое обслуживание</h4>
-                    </div>
-                    <p>Техническое обслуживание и инкассация платежных терминалов. У вас есть платежные терминалы, но вы
-                        не знаете, где и как их разместить, чтобы они приносили доход, как организовать техническое
-                        обслуживание и инкассацию денежных средств, обеспечить безопасность и бесперебойную работу
-                        терминалов? Доверьте это нам. За небольшую ежемесячную оплату вы получаете полное сопровождение
-                        работы платежных терминалов, независимо от локации и количества. </p>
-                </div>
-                <div class="line"></div>
-                <div class="service_block">
-                    <img src="/img/1.png" alt="">
-                    <div>
-                        <h4 class="format">UMAI агент</h4>
-                    </div>
-                    <p>У вас нет терминалов, но вы хотите принимать платежи? Возможно, вы живете или работаете в
-                        удаленном населенном пункте или вы хотите организовать свою собственную агентскую сеть по приему
-                        платежей? Для этого вам нужно скачать приложение Umai.Agent и зарегистрировать его на номер
-                        оператора сотовой связи Beeline. После этого вы получаете доступ к оплате наиболее популярных
-                        услуг и можете подключать субагентов. Зарабатывайте через комиссию с плательщика и
-                        вознаграждение от нашей компании. Чем больше субагентов вы сможете привлечь в свою сеть, тем
-                        больше будет ваш доход.</p>
-                </div>
-                <div class="line"></div>
-                <div class="service_block">
-                    <img src="/img/1.png" alt="">
-                    <div>
-                        <h4 class="format">Электронный кошелек</h4>
-                    </div>
-                    <p>Наша компания выступает оператором электронного кошелька «Umai». Простой и понятный интерфейс,
-                        полный контроль за расходованием денежных средств, безопасность и оперативность платежей, более
-                        500 услуг, доступных к оплате – все это в электронном кошельке «Umai». Имеется возможность
-                        пройти удаленную идентификацию и пользоваться всеми возможностями электронного кошелька.
-                        Зарегистрируйте свой электронный кошелек на сайте www.umai.kg </p>
-                </div>
+      <nav id="navbar" class="navbar">
+        <ul>
+          <li><a class="nav-link scrollto active" href="#hero">Главная</a></li>
+          <li><a class="nav-link scrollto" href="#about">О компании</a></li>
+          <li><a class="nav-link scrollto" href="#services">Услуги</a></li>
+          <li><a class="nav-link scrollto " href="#integration">Интеграция</a></li>
+          <li><a class="nav-link scrollto" href="#partner">Партнеры</a></li>
+          <li><a class="nav-link scrollto" href="#contact">Контакты</a></li>
+        </ul>
+        <i class="bi bi-list mobile-nav-toggle"></i>
+      </nav><!-- .navbar -->
 
-            </div>
-        </div>
-        <div class="integration">
-            <h1>Интеграция</h1>
-            <hr />
-            <div class="integration_block">
-                <div class="integration_block_left">
-                    <img src="./img/intergation.png" alt="">
-                </div>
-
-                <div class="integration_block_right">
-                    <h3>Мы принимаем платежи в онлайн и офлайн режиме. Протоколы взаимодействия с поставщиками и
-                        агентами просты и удобны для проведения интеграции.</h3>
-                    <div class="integration_title">
-                    <div class="integration_dwn">
-                        <p>Протокол для поставщиков (доступен к скачиванию) </p>
-                            <a href=""><img src="./img/dwload.png" alt="скачать"></a>
-                    </div>
-                    <div class="integration_dwn">
-                        <p>Протокол для дилеров (доступен к скачиванию)</p>
-                        <a href=""><img src="./img/dwload.png" alt="скачать"></a>
-                    </div>
-                </div>
-            </div>
-
-
-        </div>
-        
-    
-    
     </div>
-    <div class="partner">
-        <h1>Партнеры</h1>
-        <hr />
-        <div class="partner_block">
-            <div class="partner_block_title">
-                <h4>Коммерческие банки</h4>
-                <p>ОАО «РСК Банк»</p>
-                <p>ОАО «Оптима банк»</p>
-                <p>ОАО «Коммерческий банк Кыргызстан»</p>
-                <p>ОАО «Дос-Кредобанк»</p>
-                <p>ОАО «Капитал банк»</p>
-                <p>ЗАО «Банк Компаньон»</p>
-                <p>ЗАО «Финка банк»</p>
-                <p>ОАО «Керемет банк»</p>
-                <p>ОАО «Айыл банк»</p>
+  </header><!-- End Header -->
 
-            </div>
-            <div class="partner_block_title">
-                <h4>Операторы сотовой связи</h4>
-                <p>ОсОО «Скай Мобайл»</p>
-                <p>ЗАО «Альфа Телеком»</p>
-                <p>ОсОО «Нуртелеком»</p>
-            </div>
-            <div class="partner_block_title">
-                <h4>Интернет-провайдеры</h4>
-                <p>ОсОО «Мега-Лайн»</p>
-                <p>ОсОО «Акнет»</p>
-                <p>ОАО «Кыргызтелеком»</p>
-            </div>
-            <div class="partner_block_title">
-                <h4>Коммунальные предприятия</h4>
-                <p>ОАО «Северэлектро»</p>
-                <p>ОАО «Бишкектеплосеть»</p>
-                <p>МП «Тазалык»</p>
-                <p>ОсОО «Газпром»</p>
-            </div>
+  <!-- ======= Main Section ======= -->
+  <section id="hero" class="d-flex flex-column justify-content-end align-items-center">
+    <div id="heroCarousel" data-bs-interval="5000" class="container carousel carousel-fade" data-bs-ride="carousel">
+
+      <!-- Slide 1 -->
+      <div class="carousel-item active">
+        <div class="carousel-container">
+          <h2 class="animate__animated animate__fadeInDown">Оплачивайте услуги <span>где бы вы не находились</span></h2>
+          <p class="animate__animated fanimate__adeInUp"></p>
         </div>
-        <div id="slide" class="scroll-img">
+      </div>
+
+      <!-- Slide 2 -->
+      <div class="carousel-item">
+        <div class="carousel-container">
+          <h2 class="animate__animated animate__fadeInDown">Электронный кошелек</h2>
+          <p class="animate__animated animate__fadeInUp">Наша компания выступает оператором электронного кошелька
+            «Umai». Простой и понятный интерфейс, полный контроль за расходованием денежных средств, безопасность и
+            оперативность платежей, более 500 услуг, доступных к оплате – все это в электронном кошельке «Umai». Имеется
+            возможность пройти удаленную идентификацию и пользоваться всеми возможностями электронного кошелька.
+            Зарегистрируйте свой электронный кошелек на сайте www.umai.kg</p>
+          <a href="#about" class="btn-get-started animate__animated animate__fadeInUp scrollto">Регистрация</a>
+        </div>
+      </div>
+
+      <!-- Slide 3 -->
+      <div class="carousel-item">
+        <div class="carousel-container">
+          <h2 class="animate__animated animate__fadeInDown">У вас нет терминалов, но вы хотите принимать платежи?</h2>
+          <p class="animate__animated animate__fadeInUp">Для этого вам нужно скачать приложение Umai.Agent и
+            зарегистрировать его на номер оператора сотовой связи Beeline. После этого вы получаете доступ к оплате
+            наиболее популярных услуг и можете подключать субагентов. Зарабатывайте через комиссию с плательщика и
+            вознаграждение от нашей компании. Чем больше субагентов вы сможете привлечь в свою сеть, тем больше будет
+            ваш доход.</p>
+          <!-- <a href="#about" class="btn-get-started animate__animated animate__fadeInUp scrollto">Подробно</a> -->
+        </div>
+      </div>
+
+      <a class="carousel-control-prev" href="#heroCarousel" role="button" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon bx bx-chevron-left" aria-hidden="true"></span>
+      </a>
+
+      <a class="carousel-control-next" href="#heroCarousel" role="button" data-bs-slide="next">
+        <span class="carousel-control-next-icon bx bx-chevron-right" aria-hidden="true"></span>
+      </a>
+
+    </div>
+
+    <svg class="hero-waves" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+      viewBox="0 24 150 28 " preserveAspectRatio="none">
+      <defs>
+        <path id="wave-path" d="M-160 44c30 0 58-18 88-18s 58 18 88 18 58-18 88-18 58 18 88 18 v44h-352z">
+      </defs>
+      <g class="wave1">
+        <use xlink:href="#wave-path" x="50" y="3" fill="rgba(255,255,255, .1)">
+      </g>
+      <g class="wave2">
+        <use xlink:href="#wave-path" x="50" y="0" fill="rgba(255,255,255, .2)">
+      </g>
+      <g class="wave3">
+        <use xlink:href="#wave-path" x="50" y="9" fill="#fff">
+      </g>
+    </svg>
+
+  </section><!-- End Hero -->
+
+  <main id="main">
+
+    <!-- ======= About Section ======= -->
+    <section id="about" class="about">
+      <div class="container">
+
+        <div class="section-title" data-aos="zoom-out">
+          <h2>О компании</h2>
+        </div>
+        <div>
+          <h3>Миссия</h3>
+          <p>Мы делаем платежи более простыми и доступными</p>
+        </div>
+        <div class="row content" data-aos="fade-up">
+          <div class="col-lg-6">
+            <h3>
+              Ценности
+            </h3>
             <ul>
-              <li><img src="./img/slide/CapiBank.png" alt=""></li>
-              <li><img src="./img/slide/DoscredoGroup.png" alt=""></li>
-              <li><img src="./img/slide/KompanionGroup.png" alt=""></li>
-              <li><img src="./img/slide/KyrgyzstanBankGroup.png" alt=""></li>
-              <li><img src="./img/slide/RSKGroup.png" alt=""></li>
-              <li><img src="./img/slide/CapiBank.png" alt=""></li>
-              <li><img src="./img/slide/DoscredoGroup.png" alt=""></li>
-              <li><img src="./img/slide/KompanionGroup.png" alt=""></li>
-              <li><img src="./img/slide/KyrgyzstanBankGroup.png" alt=""></li>
-              <li><img src="./img/slide/RSKGroup.png" alt=""></li>
-              </ul>
+              <li><i class="ri-check-double-line"></i> Инновации</li>
+              <li><i class="ri-check-double-line"></i> Открытость и честность</li>
+              <li><i class="ri-check-double-line"></i> Индивидуальный подход к каждому клиенту</li>
+              <li><i class="ri-check-double-line"></i> Сплоченность команды</li>
+              <li><i class="ri-check-double-line"></i> Позитивное отношение к работе</li>
+            </ul>
           </div>
-    </div>
-    <div class="faq">
-        <div class="faq-header">
-            <h1>FAQ</h1>
-            <hr />
-        </div>
 
-        <div class="faq-content">
-            <div class="faq-question">
-                <input id="q1" type="checkbox" class="panel">
-                <div class="plus">+</div>
-                <label for="q1" class="panel-title">У меня есть платежные терминалы, как мне стать вашим
-                    агентом?</label>
-                <div class="panel-content">ответ</div>
-            </div>
-
-            <div class="faq-question">
-                <input id="q2" type="checkbox" class="panel">
-                <div class="plus">+</div>
-                <label for="q2" class="panel-title">Как мне вывести свою услугу для оплаты в ваших
-                    терминалах?</label>
-                <div class="panel-content">ответ</div>
-            </div>
-
-            <div class="faq-question">
-                <input id="q3" type="checkbox" class="panel">
-                <div class="plus">+</div>
-                <label for="q3" class="panel-title">Сколько у вас терминалов?</label>
-                <div class="panel-content">ответ</div>
-            </div>
-
-            <div class="faq-question">
-                <input id="q4" type="checkbox" class="panel">
-                <div class="plus">+</div>
-                <label for="q4" class="panel-title">В каких мобильных приложениях будет выведена моя услуга?</label>
-                <div class="panel-content">ответ</div>
-            </div>
-
-            <div class="faq-question">
-                <input id="q5" type="checkbox" class="panel">
-                <div class="plus">+</div>
-                <label for="q5" class="panel-title">В каких мобильных приложениях будет выведена моя услуга?</label>
-                <div class="panel-content">ответ</div>
-            </div>
-
-            <div class="faq-question">
-                <input id="q6" type="checkbox" class="panel">
-                <div class="plus">+</div>
-                <label for="q6" class="panel-title">Будут ли мои клиенты оплачивать комиссию при проведении
-                    платежа?</label>
-                <div class="panel-content">ответ</div>
-            </div>
-
-            <div class="faq-question">
-                <input id="q7" type="checkbox" class="panel">
-                <div class="plus">+</div>
-                <label for="q7" class="panel-title">Есть клиент совершил неверный платеж, как вернуть
-                    деньги?</label>
-                <div class="panel-content">ответ</div>
-            </div>
-
-            <div class="faq-question">
-                <input id="q8" type="checkbox" class="panel">
-                <div class="plus">+</div>
-                <label for="q8" class="panel-title">Как часто вы перечисляете денежные средства, причитающиеся
-                    поставщику?</label>
-                <div class="panel-content">ответ</div>
-            </div>
-
-            <div class="faq-question">
-                <input id="q9" type="checkbox" class="panel">
-                <div class="plus">+</div>
-                <label for="q9" class="panel-title">Что такое Umai Agent и как им стать?</label>
-                <div class="panel-content">ответ</div>
-            </div>
-
-            <div class="faq-question">
-                <input id="q10" type="checkbox" class="panel">
-                <div class="plus">+</div>
-                <label for="q10" class="panel-title">Какое вознаграждение вы оплачиваете агенту при заключении
-                    договора?</label>
-                <div class="panel-content">ответ</div>
-            </div>
-
+          <div class="col-lg-6 pt-4 pt-lg-0">
+            <h3>Органы управления</h3>
+            <p>
+              Общее собрание участников – высший орган управления
+            </p>
+            <p>Правление – исполнительный орган, председатель Правления – Цой Дмитрий Владимирович</p>
+          </div>
+          <div class="licence">
+            <h3>Лицензии НБКР</h3>
+            <p>
+              № 3004290515 от 02.06.2015 г. на деятельность по оказанию услуг по приему и проведению платежей и расчетов
+              за товары и услуги, не являющиеся результатом своей деятельности, в пользу третьих лиц посредством
+              платежных систем, основанных на информационных технологиях и электронных средствах и способах проведения
+              платежей;
+            </p>
+            <p>№ 2005290515 от 2.06.2015 г. на деятельность по оказанию услуг по приему, обработке и выдаче финансовой
+              информации (процессинг, клиринг) по платежам и расчетам третьих лиц участникам платежной системы данного
+              процессингового, клирингового центра</p>
+          </div>
 
         </div>
-        
-    </div>
 
-    <!-- <div class="contact">
-        <h1>Контакты</h1>
-        <hr />
-        <p>ОсОО «Би Эм Текнолоджис»</p>
-        <p>Город Бишкек, 720040</p>
-        <p>Улица Раззакова, 55</p>
-        <p>Колл-центр: 0552 11 00 22; 0774 11 00 22; 0501 11 00 22</p>
-        <p>Электронная почта: support@umai.kg</p>
-        <p>Лицензия НБКР № 2005290515, № 3004290515 от 02.06.2015г.</p>
-        <p>Банковские реквизиты (доступны к скачиванию)</p>
-    </div> -->
-    
-    </div>
+      </div>
+    </section><!-- End About Section -->
 
-    <footer class="footer-container">
-        <div class="footer-block">
-            <div class="footer-left">
-                <img src="./img/umai.png" alt="">
-                <p class="footer-links">
-                    <a href="#">О компании</a>
-                    <a href="#">Услуги</a>
-                    <a href="#">Интеграция</a>
-                    <a href="#">Контакты</a>
-                </p>
-                <p class="footer-company-name">BM Technologies © 2016</p>
+    <!-- ======= Services Section ======= -->
+    <section id="services" class="services">
+      <div class="container">
+
+        <div class="section-title" data-aos="zoom-out">
+          <h2>Услуги</h2>
+        </div>
+
+        <div class="row">
+          <div class="col-lg-4 col-md-6">
+            <div class="icon-box" data-aos="zoom-out">
+              <div class="icon"><i class="bi bi-credit-card" style="color: #54c282;"></i></div>
+              <h4 class="title"><a href="">Прием платежей</a></h4>
+              <p class="description">Прием платежей в пользу третьих лиц. Оптимизируйте свои денежные потоки. Доверьте
+                прием платежей за ваши товары/услуги нашей компании. Мы выводим ваш сервис в сети платежных терминалов,
+                мобильных приложениях агентов, а также в интернет и мобильном банкинге крупных коммерческих банков
+                Кыргызстана. Мы собираем платежи и перечисляем их на следующий рабочий день.
+
+              </p>
             </div>
-            <div class="footer-center">
-                <div class="footer-contact" >
-                    <p>ОсОО «Би Эм Текнолоджис»</p>
-                    <p>г. Бишкек, 720040</p>
-                    <p>ул. Раззакова, 55</p>
-                    <p>Лицензия НБКР № 2005290515, № 3004290515 от 02.06.2015г.</p>
-                    <a href="#"><p>Банковские реквизиты (доступны к скачиванию)</p></a>
-                    <br/>
-                    <div class="footer-contact-link">
-                        <div>
-                            <img src="./img/phone.png" alt="">
-                            <p>Колл-центр: +996 (501,552,774) 110022</p>
-                        </div>
-                        <div>
-                            <img src="./img/email.png" alt="">
-                            <p><a href="mailto:support@umai.kg">support@umai.kg</a></p>
-                        </div>
-                    </div>
+          </div>
+          <div class="col-lg-4 col-md-6 mt-5 mt-md-0">
+            <div class="icon-box" data-aos="zoom-in-left" data-aos-delay="100">
+              <div class="icon"><i class="bi bi-globe" style="color: #34b9a3;"></i></div>
+              <h4 class="title"><a href="">Агрегация</a></h4>
+              <p class="description">Вы хотите запустить свое собственное мобильное приложение или сеть платежных
+                терминалов? Вам не нужно заключать договоры с каждым поставщиком, сервис которого вы хотели бы видеть у
+                себя. Достаточно заключить договор на агрегацию с нашей компании, и в вашем платежном средстве появится
+                более 500 услуг, доступных к оплате.
+
+              </p>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 mt-5 mt-lg-0 ">
+            <div class="icon-box" data-aos="zoom-in-left" data-aos-delay="200">
+              <div class="icon"><i class="bi bi-people-fill" style="color: #4086af;"></i></div>
+              <h4 class="title"><a href="">Техническое обслуживание</a></h4>
+              <p class="description">Техническое обслуживание и инкассация платежных терминалов. У вас есть платежные
+                терминалы, но вы не знаете, где и как их разместить, чтобы они приносили доход, как организовать
+                техническое обслуживание и инкассацию денежных средств, обеспечить безопасность и бесперебойную работу
+                терминалов? Доверьте это нам. За небольшую ежемесячную оплату вы получаете полное сопровождение работы
+                платежных терминалов, независимо от локации и количества.</p>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 mt-5">
+            <div class="icon-box" data-aos="zoom-in-left" data-aos-delay="300">
+              <div class="icon"><i class="bi bi-wallet2" style="color:#6a6081;"></i></div>
+              <h4 class="title"><a href="">UMAI агент</a></h4>
+              <p class="description">У вас нет терминалов, но вы хотите принимать платежи? Возможно, вы живете или
+                работаете в удаленном населенном пункте или вы хотите организовать свою собственную агентскую сеть по
+                приему платежей? Для этого вам нужно скачать приложение Umai.Agent и зарегистрировать его на номер
+                оператора сотовой связи Beeline. После этого вы получаете доступ к оплате наиболее популярных услуг и
+                можете подключать субагентов. Зарабатывайте через комиссию с плательщика и вознаграждение от нашей
+                компании. Чем больше субагентов вы сможете привлечь в свою сеть, тем больше будет ваш доход.</p>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 mt-5">
+            <div class="icon-box" data-aos="zoom-in-left" data-aos-delay="400">
+              <div class="icon"><i class="bi bi-wallet2" style="color: #2154c4;"></i></div>
+              <h4 class="title"><a href="">Электронный кошелек</a></h4>
+              <p class="description">Наша компания выступает оператором электронного кошелька «Umai». Простой и понятный
+                интерфейс, полный контроль за расходованием денежных средств, безопасность и оперативность платежей,
+                более 500 услуг, доступных к оплате – все это в электронном кошельке «Umai». Имеется возможность пройти
+                удаленную идентификацию и пользоваться всеми возможностями электронного кошелька. Зарегистрируйте свой
+                электронный кошелек на сайте www.umai.kg</p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section><!-- End Services Section -->
+
+    <!-- ======= Integration Section ======= -->
+    <section id="integration" class="testimonials">
+      <div class="container">
+
+        <div class="section-title" data-aos="zoom-out">
+          <h2>Интеграция</h2>
+          <!-- <p>What they are saying about us</p> -->
+        </div>
+        <div class="col-lg-6 pt-4 pt-lg-0">
+          <p>
+            Мы принимаем платежи в онлайн и офлайн режиме. Протоколы взаимодействия с поставщиками и агентами просты и
+            удобны для проведения интеграции.
+          </p>
+        </div>
+        <div class="col-lg-6">
+          <ul>
+            <p><i class="bi bi-file-earmark-arrow-down"></i>Протокол для поставщиков (доступен к скачиванию) </p>
+            <p><i class="bi bi-file-earmark-arrow-down"></i>Протокол для поставщиков (доступен к скачиванию) </p>
+          </ul>
+        </div>
+
+
+
+      </div>
+    </section><!-- End Integration Section -->
+
+    <!-- ======= Partner Section ======= -->
+    <section id="partner" class="partner">
+      <div class="container">
+
+        <div class="section-title" data-aos="zoom-out">
+          <h2>Партнеры</h2>
+        </div>
+
+        <div class="row">
+
+          <div class="col-lg-3 col-md-6">
+            <div class="box" data-aos="zoom-in">
+              <h3>Коммерческие банки</h3>
+              <ul>
+                <li>ОАО «РСК Банк»</li>
+                <li>ОАО «Оптима банк»</li>
+                <li>ОАО «Коммерческий банк Кыргызстан»</li>
+                <li>ОАО «Дос-Кредобанк»</li>
+                <li>ОАО «Капитал банк»</li>
+                <li>ЗАО «Банк Компаньон»</li>
+                <li>ЗАО «Финка банк»</li>
+                <li>ОАО «Керемет банк»</li>
+                <li>ОАО «Айыл банк»</li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6">
+            <div class="box" data-aos="zoom-in">
+              <h3>Операторы сотовой связи</h3>
+              <ul>
+                <li>ОсОО «Скай Мобайл»</li>
+                <li>ЗАО «Альфа Телеком»</li>
+                <li>ОсОО «Нуртелеком»</li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6">
+            <div class="box" data-aos="zoom-in">
+              <h3>Интернет-провайдеры</h3>
+              <ul>
+                <li>ОсОО «Мега-Лайн»</li>
+                <li>ОсОО «Акнет»</li>
+                <li>ОАО «Кыргызтелеком»</li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6">
+            <div class="box" data-aos="zoom-in">
+              <h3>Коммунальные предприятия</h3>
+              <ul>
+                <li>ОАО «Северэлектро»</li>
+                <li>ОАО «Бишкектеплосеть»</li>
+                <li>МП «Тазалык»</li>
+                <li>ОсОО «Газпром»</li>
+              </ul>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- End Pricing Section -->
+
+    <!-- ======= F.A.Q Section ======= -->
+    <section id="faq" class="faq">
+      <div class="container">
+
+        <div class="section-title" data-aos="zoom-out">
+          <h2>F.A.Q</h2>
+        </div>
+
+        <ul class="faq-list">
+
+          <li>
+            <div data-bs-toggle="collapse" class="collapsed question" href="#faq1">У меня есть платежные терминалы, как
+              мне стать вашим агентом? <i class="bi bi-chevron-down icon-show"></i><i
+                class="bi bi-chevron-up icon-close"></i></div>
+            <div id="faq1" class="collapse" data-bs-parent=".faq-list">
+              <p>
+                ответ
+              </p>
+            </div>
+          </li>
+
+          <li>
+            <div data-bs-toggle="collapse" href="#faq2" class="collapsed question">Как мне вывести свою услугу для
+              оплаты в ваших терминалах? <i class="bi bi-chevron-down icon-show"></i><i
+                class="bi bi-chevron-up icon-close"></i></div>
+            <div id="faq2" class="collapse" data-bs-parent=".faq-list">
+              <p>
+                ответ
+              </p>
+            </div>
+          </li>
+
+          <li>
+            <div data-bs-toggle="collapse" href="#faq3" class="collapsed question">Сколько у вас терминалов? <i
+                class="bi bi-chevron-down icon-show"></i><i class="bi bi-chevron-up icon-close"></i></div>
+            <div id="faq3" class="collapse" data-bs-parent=".faq-list">
+              <p>
+                ответ
+              </p>
+            </div>
+          </li>
+
+          <li>
+            <div data-bs-toggle="collapse" href="#faq4" class="collapsed question">В каких мобильных приложениях будет
+              выведена моя услуга? <i class="bi bi-chevron-down icon-show"></i><i
+                class="bi bi-chevron-up icon-close"></i></div>
+            <div id="faq4" class="collapse" data-bs-parent=".faq-list">
+              <p>
+                ответ
+              </p>
+            </div>
+          </li>
+
+          <li>
+            <div data-bs-toggle="collapse" href="#faq5" class="collapsed question">Будут ли мои клиенты оплачивать
+              комиссию при проведении платежа? <i class="bi bi-chevron-down icon-show"></i><i
+                class="bi bi-chevron-up icon-close"></i></div>
+            <div id="faq5" class="collapse" data-bs-parent=".faq-list">
+              <p>
+                ответ
+              </p>
+            </div>
+          </li>
+
+          <li>
+            <div data-bs-toggle="collapse" href="#faq6" class="collapsed question">Есть клиент совершил неверный платеж,
+              как вернуть деньги? <i class="bi bi-chevron-down icon-show"></i><i
+                class="bi bi-chevron-up icon-close"></i></div>
+            <div id="faq6" class="collapse" data-bs-parent=".faq-list">
+              <p>
+                ответ
+              </p>
+            </div>
+          </li>
+
+          <li>
+            <div data-bs-toggle="collapse" href="#faq6" class="collapsed question">Как часто вы перечисляете денежные
+              средства, причитающиеся поставщику? <i class="bi bi-chevron-down icon-show"></i><i
+                class="bi bi-chevron-up icon-close"></i></div>
+            <div id="faq6" class="collapse" data-bs-parent=".faq-list">
+              <p>
+                ответ
+              </p>
+            </div>
+          </li>
+
+          <li>
+            <div data-bs-toggle="collapse" href="#faq6" class="collapsed question">Что такое Umai Agent и как им стать?
+              <i class="bi bi-chevron-down icon-show"></i><i class="bi bi-chevron-up icon-close"></i></div>
+            <div id="faq6" class="collapse" data-bs-parent=".faq-list">
+              <p>
+                ответ
+              </p>
+            </div>
+          </li>
+
+          <li>
+            <div data-bs-toggle="collapse" href="#faq6" class="collapsed question">Какое вознаграждение вы оплачиваете
+              агенту при заключении договора? <i class="bi bi-chevron-down icon-show"></i><i
+                class="bi bi-chevron-up icon-close"></i></div>
+            <div id="faq6" class="collapse" data-bs-parent=".faq-list">
+              <p>
+                ответ
+              </p>
+            </div>
+          </li>
+
+        </ul>
+
+      </div>
+    </section><!-- End F.A.Q Section -->
+
+
+    <!-- ======= Contact Section ======= -->
+    <section id="contact" class="contact">
+      <div class="container">
+
+        <div class="section-title" data-aos="zoom-out">
+          <h2>Контакты</h2>
+        </div>
+
+        <div class="row mt-5">
+
+          <div class="col-lg-4" data-aos="fade-right">
+            <div class="info">
+              <div class="address">
+                <i class="bi bi-geo-alt"></i>
+                <h4>Адрес:</h4>
+                <p>г. Бишкек, 720040</p>
+                <p>ул. Раззакова, 55</p>
+              </div>
+
+              <div class="email">
+                <i class="bi bi-envelope"></i>
+                <h4>Email:</h4>
+                <p>support@umai.kg</p>
+              </div>
+
+              <div class="phone">
+                <i class="bi bi-phone"></i>
+                <h4>Колл-центр:</h4>
+                <p>+996 (501,552,774) 110022</p>
+              </div>
+
+            </div>
+
+          </div>
+
+          <div class="col-lg-8 mt-5 mt-lg-0" data-aos="fade-left">
+
+            <form action="forms/contact.php" method="post" role="form" class="php-email-form">
+              <div class="row">
+                <div class="col-md-6 form-group">
+                  <input type="text" name="name" class="form-control" id="name" placeholder="Ваше имя" required>
                 </div>
-    
-            </div>
-    
-            <div class="footer-right">
-    
-                <div class="footer-icons">
-                    <img src="./img/facebook_icon.svg" alt="">
-                    <img src="./img/instagram_icon.svg" alt="">
+                <div class="col-md-6 form-group mt-3 mt-md-0">
+                  <input type="email" class="form-control" name="email" id="email" placeholder="Email" required>
                 </div>
-    
-            </div>
+              </div>
+              <div class="form-group mt-3">
+                <input type="text" class="form-control" name="subject" id="subject" placeholder="Тема" required>
+              </div>
+              <div class="form-group mt-3">
+                <textarea class="form-control" name="message" rows="5" placeholder="Сообщение" required></textarea>
+              </div>
+              <div class="my-3">
+                <div class="loading">Загурзка</div>
+                <div class="error-message"></div>
+                <div class="sent-message">Ваше сообщение отправлено. Спасибо!</div>
+              </div>
+              <div class="text-center"><button type="submit">Отправить</button></div>
+            </form>
+
+          </div>
+
         </div>
-    </footer>
+
+      </div>
+    </section><!-- End Contact Section -->
+
+    <!-- ======= Document Section ======= -->
+    <section id="document" class="testimonials">
+      <div class="container">
+
+        <div class="section-title" data-aos="zoom-out">
+          <h2>Документация</h2>
+        </div>
+        <div class="col-lg-6 pt-4 pt-lg-0">
+          <p>
+            Документы, доступные к скачиванию
+          </p>
+        </div>
+        <div class="col-lg-6">
+          <ul class="doc-link">
+            <p><a href=""><i class="bi bi-file-earmark-arrow-down"></i>Типовой договор с на прием платежей с поставщиком услуги </a></p>
+            <p><a href=""><i class="bi bi-file-earmark-arrow-down"></i>Типовой агентский договор для приема платежей через платежные терминалы </a></p>
+            <p><a href=""><i class="bi bi-file-earmark-arrow-down"></i>Типовой агентский договор для приема платежей через Umai.Agent  </a></p>
+            <p><a href=""><i class="bi bi-file-earmark-arrow-down"></i>Пользовательское соглашение </a></p>
+            <p><a href=""><i class="bi bi-file-earmark-arrow-down"></i>Политика конфиденциальности </a></p>
+            <p><a href=""><i class="bi bi-file-earmark-arrow-down"></i>Условия обработки персональных данных </a></p>
+          </ul>
+        </div>
+
+
+
+      </div>
+    </section><!-- End Integration Section -->
+
+  </main><!-- End #main -->
+
+  <!-- ======= Footer ======= -->
+  <footer id="footer">
+    <div class="container">
+      <div class="social-links">
+        <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
+        <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
+      </div>
+      <div class="copyright">
+        &copy; ОсОО "BM Technologies" <strong><span>2022</span></strong>.
+      </div>
+    </div>
+  </footer><!-- End Footer -->
+
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i
+      class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+
+  <!-- Template Main JS File -->
+  <script src="assets/js/main.js"></script>
 
 </body>
+
 </html>
