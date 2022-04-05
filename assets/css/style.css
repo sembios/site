@@ -297,6 +297,16 @@ h1, h2, h3, h4, h5, h6 {
   height: 70vh;
   padding-top: 60px;
 }
+#hero .carousel-container-docs {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  position: relative;
+  height: 8vh;
+  padding-top: 60px;
+}
 #hero h2 {
   color: #fff;
   margin-bottom: 30px;
@@ -622,12 +632,14 @@ color: black;
   box-shadow: 0 2px 35px 0 rgba(68, 88, 144, 0.2);
 }
 .services .icon {
-  position: absolute;
+  /* position: absolute;
   left: 2px;
-  top: calc(50% - 30px);
+  top: calc(50% - 30px); */
+  display: flex;
+  justify-content: center;
 }
 .services .icon i {
-  font-size: 64px;
+  font-size: 180px;
   line-height: 1;
   transition: 0.5s;
 }
@@ -662,7 +674,7 @@ color: black;
   padding: 30px 30px 0 30px;
   margin: 30px 15px;
   text-align: center;
-  min-height: 350px;
+  min-height: 280px;
   box-shadow: 0px 2px 12px rgba(0, 0, 0, 0.08);
 }
 .testimonials .testimonial-item .testimonial-img {
