@@ -485,6 +485,12 @@ section {
   color: #2a2c39;
 }
 
+/*News*/
+.news {
+  display: flex;
+  justify-content: flex-end
+}
+
 /*--------------------------------------------------------------
 # About
 --------------------------------------------------------------*/
@@ -642,6 +648,10 @@ color: black;
   font-size: 180px;
   line-height: 1;
   transition: 0.5s;
+}
+
+.services .icon img {
+  width: 180px;
 }
 .services .title {
   margin-left: 40px;
