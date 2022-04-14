@@ -93,6 +93,29 @@ h1, h2, h3, h4, h5, h6 {
   max-height: 40px;
 }
 
+#header_p {
+  height: 100px;
+  transition: all 0.5s;
+  z-index: 997;
+  transition: all 0.5s;
+  background: rgba(42, 44, 57, 0.9);
+}
+#header_p.header-transparent {
+  background: transparent;
+}
+#header.header-scrolled {
+  background: rgba(55, 59, 83, 0.9);
+}
+#header .logo h1 a, #header .logo h1 a:hover {
+  color: #fff;
+  text-decoration: none;
+}
+#header_p .logo img {
+  padding: 0;
+  margin: 0;
+  max-height: 40px;
+}
+
 /*--------------------------------------------------------------
 # Navigation Menu
 --------------------------------------------------------------*/
@@ -671,6 +694,7 @@ color: black;
   margin-left: 45px;
   line-height: 24px;
   margin-bottom: 0;
+  /* height: 28em; */
 }
 
 /*--------------------------------------------------------------
