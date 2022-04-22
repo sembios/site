@@ -662,6 +662,13 @@ color: black;
   bottom: 8px;
 
 }
+
+.news-date {
+  /* position: absolute;
+  right: 20px;
+  bottom: 20px; */
+
+}
 .services .icon-box:hover {
   transform: translateY(-10px);
   box-shadow: 0 2px 35px 0 rgba(68, 88, 144, 0.2);
@@ -738,7 +745,10 @@ color: black;
 .testimonials .testimonial-item h4 {
   font-size: 14px;
   color: #999;
-  margin: 0;
+  /* margin: 0; */
+  position: absolute;
+  right: 25px;
+  bottom: 25px;
 }
 .testimonials .testimonial-item .quote-icon-left, .testimonials .testimonial-item .quote-icon-right {
   color: #fedac0;
