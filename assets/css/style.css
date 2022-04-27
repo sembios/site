@@ -801,7 +801,8 @@ color: black;
 
 @media (max-width: 1024px) {
   .testimonials .testimonial-item {
-    min-height: 280px;}
+    min-height: 280px;
+  }
   .news-pic {
     height: 130px;
   }
@@ -809,9 +810,6 @@ color: black;
     width: 110px;
     /* height: 50%; */
   }
-
-  
-  
 }
 
 /*--------------------------------------------------------------
