@@ -498,6 +498,13 @@ section {
   background: #2010a8;
   margin: 4px 10px;
 }
+.section-cut {
+  content: "";
+  width: 100%;
+  height: 1px;
+  display: inline-block;
+  background: #2010a8;
+}
 .section-title p {
   margin: 0;
   margin: 0;
