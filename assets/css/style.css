@@ -723,6 +723,17 @@ color: black;
   font-size: 18px;
 }
 
+.doc-link {
+margin-top: 20px;
+}
+
+.doc-link p {
+  font-size: 18px;
+}
+.doc-link p i {
+  margin-right: 10px;
+}
+
 /*--------------------------------------------------------------
 # Partners
 --------------------------------------------------------------*/
